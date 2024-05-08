@@ -87,6 +87,7 @@ Estimated time: ~15 min (Notice the `val loss` is much lower compared to the sim
 ## To-do
 - [x] Built a simple bigram language model
 - [x] Built an enhanced model with self-attention mechanism
+- [ ] Packed this app to Docker
 - [ ] Completed the Encoder part of Transformer to apply cross-attention
 - [ ] Quantized model to reduce model params without degrading the original performance
 - [ ] Built a speech recognition model using Transformer
