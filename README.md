@@ -90,7 +90,7 @@ Estimated time: ~15 min (Notice the `val loss` is much lower compared to the sim
 - [ ] Completed the Encoder part of Transformer
 - [ ] Quantized model to reduce model params without degrading the original performance
 - [ ] Built a speech recognition model using Transformer
-- [ ] Try distributed traning
+- [ ] Try distributed training
 
 
 
