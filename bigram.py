@@ -5,9 +5,9 @@ from torch.nn import functional as F
 # hyperparameters
 batch_size = 32
 block_size = 8
-max_iters = 3000 # training iteration
+max_iters = 5000 # training iteration
 eval_interval = 300 # print metrics every 300 iterations
-learning_rate = 1e-2
+learning_rate = 1e-3
 device = "cuda" if torch.cuda.is_available() else "cpu"
 eval_iters = 200 # #times to take average of losses
 
@@ -102,7 +102,7 @@ class BigramLanguageModel(nn.Module):
 model = BigramLanguageModel(vocab_size)
 m = model.to(device)
 
-optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
 for iter in range(max_iters): # increase number of steps for good results...
 
