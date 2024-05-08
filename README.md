@@ -1,7 +1,7 @@
 # Building GPT from scratch
 Ever since ChatGPT appeared, there was a boom in medium-to-large technological companies using LLMs to develop theirs applications. Not only tech, but it is also surprising when people from different disciplines also converse about ChatGPT on a day-to-day basis. Just like ChatGPT, there are a lot of other LLMs that are also based on transformer neural networks. And today, I will build a famous GPT (Generative Pre-trained Transformers) from scratch for the purpose of learning basic inner workings of LLMs.
 
-In this repository, I will only consider the task of generating text for now. So the architecture will only contain the Decoder part of the Transformer.
+In this repository, I will only consider the task of generating Shakespeare-like text for now. So the architecture will only contain the Decoder part of the Transformer.
 
 ## Installation
 Create an Anaconda environment and install the necessary packages: ```torch 2.0.0```, ```python 3.10.10```
@@ -87,10 +87,10 @@ Estimated time: ~15 min (Notice the `val loss` is much lower compared to the sim
 ## To-do
 - [x] Built a simple bigram language model
 - [x] Built an enhanced model with self-attention mechanism
-- [] Completed the Encoder part of Transformer
-- [] Quantized model to reduce model params without degrading the original performance
-- [] Built a speech recognition model using Transformer
-- [] Try distributed traning
+- [ ] Completed the Encoder part of Transformer
+- [ ] Quantized model to reduce model params without degrading the original performance
+- [ ] Built a speech recognition model using Transformer
+- [ ] Try distributed traning
 
 
 
